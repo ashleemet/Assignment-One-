@@ -1,0 +1,260 @@
+
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC');
+* {
+  outline: 1px solid lime;
+}
+
+
+body {
+  background-color: #f7f7f7;
+  margin: 0;
+  font-family: sans-serif;
+}
+.header {
+  background-color: #FFD4D4;
+  height: 130px;
+  color: white;
+  border-bottom:6px solid #FFBABA;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.nav {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  float:  left;
+  margin-top: 0px;
+}
+.logo img {
+ height: 130px;
+ width: 130px;
+}
+
+.links {
+  font-family: 'patrick hand SC', sans-serif;
+  float:right;
+  margin-top: 62px;
+  font-size: 1.1rem;
+  }
+
+
+  .links a {
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-width: thin;
+  border-color: black}
+
+.banner {
+  margin-top: 150px;
+  background-color: #88fdef;
+  height: 305px;
+border-bottom: 5px solid #52ffe9;
+text-align: center;
+}
+
+
+.photography {
+max-width: 888px;
+margin-left: auto;
+margin-right: auto;
+height: 589px;
+color: black;
+padding-top: 50px;
+font-family: "Myriad pro", sans-serif;
+}
+
+.photos {
+  font-size: 1.7rem;
+
+}
+
+.underheader {
+  padding-top: 5px;
+  font-size: 1rem; }
+
+  .photographs {
+    height: 437px;
+  }
+  .photographs {
+    margin-top: 10px;
+
+  }
+  .photographs img {
+     margin-right: 6.4px;
+  }
+
+  .line1 {
+  height: 225px;}
+
+  .about {
+    height: 366px;
+    background-color: #ffd4d4;
+    border-bottom:6px solid #fcc8c8;
+    border-radius: 10px;
+  }
+
+  .design {
+    height: 413px;
+  }
+.contact {
+  height: 424px;
+  background-color: #88fdef;
+margin-top: 20px;
+}
+
+.bottom {
+  background-color: #ffd4d4;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutme {
+  font-size: 1.7rem;
+  font-family: "Myriad pro", sans-serif;
+  background-color: #ffe0e0;
+  width: 135px;
+
+}
+.aboutbox {
+  max-width: 888px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+
+.abouttext {
+  width: 510px;
+  font-family: "Myriad pro", sans-serif;
+  font-size: .9rem;
+  padding-top: 40px;
+  float: left;
+}
+
+.mepic {
+float: left;
+padding-left: 80px;
+}
+.design {
+
+  font-family: "Myriad pro", sans-serif;
+}
+.designblock{
+max-width: 875px;
+height: 324px;
+margin-right: auto;
+margin-left: auto;
+margin-top: 40px;}
+
+.design1 {
+  max-width: 275px;
+  height: 255px;
+  float: left;
+}
+.underheader1 {
+  padding-bottom: 10px;
+  font-size: 1rem; }
+
+.designhead1 {
+  font-size: 1.4rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 230px;
+  font-weight: bold;
+
+  text-align: center;
+
+}
+
+.intext1 {
+  font-size: .7rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.design2 {
+  max-width: 275px;
+  height: 255px;
+  float: left;
+
+  text-align: center;
+  padding-left:  26px;
+}
+
+.links2 {
+  font-family: 'patrick hand SC', sans-serif;
+margin-left: auto;
+margin-right: auto;
+padding-top: 20px;
+  font-size: .9rem;
+text-align: center;}
+
+
+  .links2 a {
+    color: #ffb9b9;
+    text-decoration: none;
+    padding-right: 10px;
+    background-color: white;
+    padding-left: 10px; }
+
+.name input, .name input {
+width: 140px;
+padding-bottom: 16px;
+color:red;
+border-radius: 10px;
+border: none;
+padding: 10px;
+}
+.email {
+  padding-bottom: 16px;
+
+  color: #fff6f6;
+}
+.contactbox {
+  max-width: 878px;
+  height: 318px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:69px;
+}
+
+.message {
+  color: #fff6f6;}
+
+.button {
+  color: #ffb9b9;
+  border: #ffb9b9;
+}
+
+#contact {
+    display: block;
+    position: relative;
+    top: -130px;
+    visibility: hidden;}
+
+    #about {
+        display: block;
+        position: relative;
+        top: -180px;
+        visibility: hidden; }
+
+#design {
+    display: block;
+    position: relative;
+    top: -180px;
+    visibility: hidden;
+}
+#photos {
+    display: block;
+    position: relative;
+    top: -180px;
+    visibility: hidden;
+}

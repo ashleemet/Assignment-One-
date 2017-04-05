@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title> Ashlee Metcalfe </title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+
+
+    <body>
+      <div class="header">
+
+        <div class="nav">
+
+          <div class="logo">
+            <img src="images/logo.png">
+          </div>
+
+          <div class="links">
+            <a id="home_btn" href="#">  HOME</a>
+
+            <a id="photos_btn" href="#photos">PHOTOGRAPHY</a>
+
+            <a id="about_btn" href="#about"> ABOUT</a></a></a>
+
+            <a id="design_btn" href="#design">DESIGN</a></a>
+
+            <a id="contact_btn" href="#contact">  CONTACT</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="banner">
+        <img src="images/banner.jpg">
+      </div>
+
+    <div class="photography">
+
+      <div class="photos">
+        <a id="photos"></a>
+
+      <b>  PHOTOGRAPHY </b>
+
+        <div class="underheader">
+        A collection of potrature photography I have taken.
+        </div>
+
+      <div class="photographs">
+        <div class="line1">
+        <img src="images/photo1.png">
+        <img src="images/photo2.png">
+          <img src="images/photo3.png">
+          <img src="images/photo4.png">
+        </div>
+        <div class="line2">
+          <img src="images/photo5.png">
+          <img src="images/photo6.png">
+            <img src="images/photo7.png">
+            <img src="images/photo8.png">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="about">
+
+        <a id="about"></a>
+
+    <div class="aboutbox">
+
+    <div class="aboutme">
+      <B>ABOUT ME </b>
+    </div>
+    <div class="abouttext">
+      My name is Ashlee Metcalfe and I currently am currently a first year Design student at Massey. Design and art has been a passion of mine some way or another, from a very young age. While in primary school, inspired by ‘Captain Underpants‘ I created a comic book series called 'Super Cat'. By the time I was in intermediate, I had developed a love for photography. With my little Fujifilm digital camera – I felt like a professional. My passion for design however, really started during High School. I began to create strange things on photoshop, learning how to navigate through trial and error (and a bit of YouTube.)  I thoughrougly enjoyed my Design class at school, and decided to continue my study for it at a higher level at Massey University.
+
+    </div>
+
+
+      <div class="mepic">
+        <img src="images/meee.png">
+    </div>
+  </div>
+</div>
+
+  <div class="design">
+      <a id="design"></a>
+    <div class="designblock">
+    <div class="photos">
+    <b>  DESIGN </b>
+
+      <div class="underheader1">
+    A collection of Design projects I have worked on.
+      </div>
+    </div>
+    <div class="design1">
+      <img src="images/poster.png">
+
+      <div class="designhead1">
+      LOUD SHIRT DAY 2016
+      </div>
+      <div class="intext1">
+      Based around infrorming the public of Loud Shirt Day and raising awareness of deaf children.
+    </div>
+    </div>
+    <div class="design2">
+      <img src="images/prospectus.png">
+
+      <div class="designhead1">
+      WHS INTERNATIONAL PROSPECTUS
+      </div>
+      <div class="intext1">
+      Shows the great culture and experience at WHS
+    </div>
+  </div>
+
+  <div class="design2">
+    <img src="images/website.png">
+
+    <div class="designhead1">
+    O WEEK 2016
+    </div>
+    <div class="intext1">
+
+Advertising, marketing and telling the public about the events surrounding Oriention Week.
+  </div>
+  </div>
+</DIV>
+
+  <div class="contact">
+        <a id="contact"></a>
+
+    <div class="contactbox">
+    <div class="photos">
+      <b>CONTACT</b>
+    </div>
+          <div class="underheader1">
+        Send me a message!
+          </div>
+    <div class="name">
+    <input type="text" placeholder="Name..." />
+  </div>
+  <div class="email">
+    <input type="text" placeholder="Email..." />
+  </div>
+<div class="message">
+    <textarea placeholder="Type your message..."></textarea>
+  </div>
+  <div class="button">
+   <button type="submit" class="submit">Submit</button>
+ </div>
+  </div>
+</div>
+
+  <div class="bottom">
+
+    <div class="links2">
+      <a id="home_btn" href="#">  HOME</a>
+
+      <a id="photos_btn" href="#photos">PHOTOGRAPHY</a>
+
+      <a id="about_btn" href="#about"> ABOUT</a></a></a>
+
+      <a id="design_btn" href="#design">DESIGN</a></a>
+
+      <a id="contact_btn" href="#contact">  CONTACT</a>
+    </div>
+
+  </div>
+
+<script>
+document.getElementById('home_btn').addEventListener('click', function() {
+  document.getElementById('contact_btn').style.backgroundColor = 'transparent';
+  document.getElementById('home_btn').style.backgroundColor = '#ffbaba';
+  document.getElementById('photos_btn').style.backgroundColor = 'transparent';
+  document.getElementById('design_btn').style.backgroundColor = 'transparent';
+  document.getElementById('about_btn').style.backgroundColor = 'transparent';
+});
+
+document.getElementById('contact_btn').addEventListener('click', function() {
+  document.getElementById('contact_btn').style.backgroundColor = '#ffbaba';
+  document.getElementById('home_btn').style.backgroundColor = 'transparent';
+  document.getElementById('photos_btn').style.backgroundColor = 'transparent';
+  document.getElementById('design_btn').style.backgroundColor = 'transparent';
+  document.getElementById('about_btn').style.backgroundColor = 'transparent';
+});
+
+document.getElementById('photos_btn').addEventListener('click', function() {
+  document.getElementById('contact_btn').style.backgroundColor = 'transparent';
+  document.getElementById('home_btn').style.backgroundColor = 'transparent';
+  document.getElementById('photos_btn').style.backgroundColor = '#ffbaba';
+  document.getElementById('design_btn').style.backgroundColor = 'transparent';
+  document.getElementById('about_btn').style.backgroundColor = 'transparent';
+});
+
+document.getElementById('design_btn').addEventListener('click', function() {
+  document.getElementById('contact_btn').style.backgroundColor = 'transparent';
+  document.getElementById('home_btn').style.backgroundColor = 'transparent';
+  document.getElementById('photos_btn').style.backgroundColor = 'transparent';
+  document.getElementById('design_btn').style.backgroundColor = '#ffbaba';
+  document.getElementById('about_btn').style.backgroundColor = 'transparent';
+});
+
+document.getElementById('about_btn').addEventListener('click', function() {
+  document.getElementById('contact_btn').style.backgroundColor = 'transparent';
+  document.getElementById('home_btn').style.backgroundColor = 'transparent';
+  document.getElementById('photos_btn').style.backgroundColor = 'transparent';
+  document.getElementById('design_btn').style.backgroundColor = 'transparent';
+  document.getElementById('about_btn').style.backgroundColor = '#ffbaba';
+});
+
+</script>
+
+</body>
+
+</html>
