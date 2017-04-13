@@ -1,8 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC');
-* {
-  outline: 1px solid lime;
-}
+
 
 
 body {
@@ -19,6 +17,7 @@ body {
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 3;
 }
 .nav {
   max-width: 960px;
@@ -124,6 +123,7 @@ font-family: "Myriad pro", sans-serif;
   padding-top: 30px;
   position: absolute;
   color:white;
+  z-index: 2;
 
 }
 
@@ -173,8 +173,11 @@ margin-top: 90px;}
 .design1 img {
 
   padding-bottom: 20px;
+  opacity: .6;
+  z-index: 2;
 }
 .design1 img:hover {
+  opacity: 1;
 
   filter: drop-shadow(5px 5px 5px black);
 
@@ -224,9 +227,10 @@ margin-top: 90px;}
 }
 .design2 img {
   padding-bottom: 20px;
+  opacity: .7;
 }
 .design2 img:hover {
-
+opacity: 1;
   filter: drop-shadow(5px 5px 5px black);
 }
 .links2 {
@@ -316,9 +320,15 @@ padding: 10px;
   width: 750px;
 }
 #one {
+  opacity: .7;
+}
+
+#one:hover {
+  opacity: 1;
 }
 
 #one:hover img {
+  opacity: 1;
 filter: drop-shadow(2px 2px 2px black);
 }
 .button input,.button input{
@@ -338,13 +348,14 @@ filter: drop-shadow(2px 2px 2px black);
 
 }
 .insta:hover {
-filter: drop-shadow(2px 2px 2px black);
+filter: brightness(.6);
+
 }
 .face:hover {
-filter: drop-shadow(2px 2px 2px black);
+filter: brightness(.6);
 }
 .word:hover {
-filter: drop-shadow(2px 2px 2px black);
+filter: brightness(.6);
 }
 #contact {
     display: block;
@@ -389,3 +400,25 @@ filter: drop-shadow(2px 2px 2px black);
      }
 
 .
+@media screen and (max-width:550px) {
+
+.logo {
+  float: none;
+  margin-top: 0;
+  text-align: center;
+  padding-top: 15px;}
+
+  .logo img{
+max-width: 30px;
+max-height: 30px;
+height: auto;
+width: auto;}
+
+.links {
+    float:none;
+    margin-top: 15px;
+    margin-left: auto;
+    text-align: center;
+    font-size: .5rem;
+}
+}
